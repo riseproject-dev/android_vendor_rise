@@ -1,0 +1,27 @@
+// Copyright (C) 2026 The Android Open Source Project
+// SPDX-License-Identifier: Apache-2.0
+
+// WiFi RTL8852BE firmware: intentionally NOT defined here. The blob
+// (rtw89/rtw8852b_fw.bin) is chip-identical to the K1's, whose
+// `rtw8852b_fw.bin` prebuilt_firmware already installs it to
+// /vendor/firmware/rtw89/ in this product (module name visible via the
+// device/spacemit/k1 Soong namespace). Defining a second module here that
+// installs the same path is a make duplicate-install error. See k3.mk.
+
+// Bluetooth RTL8852B firmware (btusb + btrtl, USB transport).
+// btrtl requests rtl_bt/rtl8852bu_fw.bin (falls back from _fw_v2.bin) and the
+// optional rtl_bt/rtl8852bu_config.bin. These are the USB ("bu") blobs, NOT the
+// K1 UART ("bs") ones, and they live in rtl_bt/ (not the K1's rtlbt/).
+prebuilt_firmware {
+    name: "rtl8852bu_fw.bin",
+    vendor: true,
+    src: "rtl_bt/rtl8852bu_fw.bin",
+    sub_dir: "rtl_bt",
+}
+
+prebuilt_firmware {
+    name: "rtl8852bu_config.bin",
+    vendor: true,
+    src: "rtl_bt/rtl8852bu_config.bin",
+    sub_dir: "rtl_bt",
+}
