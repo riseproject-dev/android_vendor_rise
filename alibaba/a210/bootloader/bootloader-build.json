@@ -1,6 +1,6 @@
 {
   "board": "a210",
-  "generated_at": "2026-10-11T01:40:00.434290+00:00",
+  "generated_at": "2026-10-11T01:50:36.398402+00:00",
   "sources": {
     "u-boot": {
       "commit": "bec6f8583ff234ca4bde20159cfeec659b1bcab8",
@@ -11,7 +11,7 @@
       "clean": true
     },
     "build-bootloaders": {
-      "commit": "c422ff13de2188556a1ce6000fcc331c2a2bd27d",
+      "commit": "3187495ad9d53965cb71507c6d559367827452e0",
       "clean": true
     }
   },
@@ -44,7 +44,7 @@
     {
       "path": "emmc-gpt_primary.img",
       "size": 32768,
-      "sha256": "0ce12cfa02c904951e917081b02c2a85886f654d79bb37354316213e964cfd72"
+      "sha256": "69042969f93dd50415bdec54d32d43cf03cf0d59d757ee32a9b8423f19351f62"
     },
     {
       "path": "emmc-uboot_env.img",
@@ -54,7 +54,7 @@
     {
       "path": "emmc_boot-loader.img",
       "size": 1389322,
-      "sha256": "b4d111cf1516f78e0f62a4d682e0089689670efe9bca4f30cf4302b3856d0838"
+      "sha256": "d679be261075eaadb80ec556693c06c3a6e0051e626277764ca91503e2fe0879"
     },
     {
       "path": "fw_dynamic.bin",
@@ -79,7 +79,7 @@
     {
       "path": "spl-with-fit-rvbl.bin",
       "size": 1016138,
-      "sha256": "6e1ad9fd44db37fabaedd43a9efedc4b45f5ff0ce21fe6e1fe28624b77547fc6"
+      "sha256": "e2f3bb2931025b6d6befc695e2f2c210bc5e592cc90113ca6eac4ff021c92b92"
     },
     {
       "path": "u-boot-spl-rvbl.bin",
@@ -98,5 +98,5 @@
     }
   ],
   "hardware_validation": "not run",
-  "log": "/srv/rise/ready_to_push/bootloaders_alibaba/build-logs/alibaba-a210-release.gSXean.log"
+  "log": "/srv/rise/ready_to_push/bootloaders_alibaba/build-logs/alibaba-a210-release.MpvSTX.log"
 }
