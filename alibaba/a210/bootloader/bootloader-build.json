@@ -1,0 +1,102 @@
+{
+  "board": "a210",
+  "generated_at": "2026-10-11T00:27:59.038751+00:00",
+  "sources": {
+    "u-boot": {
+      "commit": "bec6f8583ff234ca4bde20159cfeec659b1bcab8",
+      "clean": true
+    },
+    "opensbi": {
+      "commit": "318574b27cfcf108b2cdaf19903bf15d1ac0473b",
+      "clean": true
+    },
+    "build-bootloaders": {
+      "commit": "68b92bd3a3fc428d2288c64699693d148352b14d",
+      "clean": true
+    }
+  },
+  "config_sha256": {
+    "u-boot/.config": "1c898bd937c1f679ec22e0ab38eccaff6c79a36e2fb08f71c62c0b3fcf534504",
+    "build-bootloaders/config/defconfig_fragment/a210_android.config": "6c5f31fb90730c2ab0c25f4cf77879445415504eb9aae591ce8603425e64cb30"
+  },
+  "last_staged_mode": "release",
+  "files": [
+    {
+      "path": "a210.dtb",
+      "size": 23408,
+      "sha256": "30583df647d651195a4c16beff79c3c8265c0990e6e139f0932036a5ca414edb"
+    },
+    {
+      "path": "bootzero-rvbl.bin",
+      "size": 12816,
+      "sha256": "0c847e09eef900ed49b9f6fdd9a1f0df8247dd3e08001fb1b3e5fd921fab3640"
+    },
+    {
+      "path": "btz-with-spl-rvbl.bin",
+      "size": 806464,
+      "sha256": "a0129181a7b9a07f6bfa78a35e44277b7f1b3f467c7405235df1e6aad4677e9a"
+    },
+    {
+      "path": "btz-with-uboot-rvbl.bin",
+      "size": 1367606,
+      "sha256": "7a7147785ba6c82bba357842ddfc7a6b45c176e658df532b4f7d72e8879ab6e1"
+    },
+    {
+      "path": "emmc-gpt_primary.img",
+      "size": 32768,
+      "sha256": "bfd3335d70e28b51524eeb8a963f59353a83d79b528bfebf967a29ef0f62ca86"
+    },
+    {
+      "path": "emmc-uboot_env.img",
+      "size": 16384,
+      "sha256": "9533e84fb46ab70cd179e300109da3e86d8d1551704bd32bbfd80d19ec30cee3"
+    },
+    {
+      "path": "emmc_boot-loader.img",
+      "size": 1389322,
+      "sha256": "ba8fbbf24e4ff89aac05a6f96f60380004749f5c2670e6983954e777d165bc7c"
+    },
+    {
+      "path": "fw_dynamic.bin",
+      "size": 273568,
+      "sha256": "90ae3d6934fe7f86840846bed45b99d63203aa4717a030cdc7403bd6a4be0831"
+    },
+    {
+      "path": "fw_dynamic.bin.gz",
+      "size": 97629,
+      "sha256": "11efae236330e70909c41697f643644f0679729af6f5a33b081bef5eaf3f88d4"
+    },
+    {
+      "path": "riscv-boot.hash",
+      "size": 233,
+      "sha256": "a44b942bde575ad4f3df43cfc964a56b8ccc911a68e87172c92655d9b65c655d"
+    },
+    {
+      "path": "riscv-boot.itb",
+      "size": 515638,
+      "sha256": "cbccfb32147c497329b025636f7f24b3e40412d8e287da1b7c1aa97592278e72"
+    },
+    {
+      "path": "spl-with-fit-rvbl.bin",
+      "size": 1016138,
+      "sha256": "d104d8ee30c01582e09130ec1991405447502513d52fc8e0acddbeb63aba74cd"
+    },
+    {
+      "path": "u-boot-spl-rvbl.bin",
+      "size": 478784,
+      "sha256": "9352c636a9c8d0aef45958bef5fd7eaab23fbb22c8ccff4ec44c4bf15273e74c"
+    },
+    {
+      "path": "u-boot.bin",
+      "size": 766808,
+      "sha256": "b0e89f79ef2d879a6649e183e3fc56de03ecd20ca6819702a1af52caf2178f1e"
+    },
+    {
+      "path": "u-boot.bin.gz",
+      "size": 392459,
+      "sha256": "4b7a693ddd747ba1d282b83e46112d30d0a4652ff552eb5509239cc660604955"
+    }
+  ],
+  "hardware_validation": "not run",
+  "log": "/tmp/rise-a210-clean-source-release-build.log"
+}

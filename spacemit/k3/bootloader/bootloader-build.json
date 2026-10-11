@@ -1,0 +1,117 @@
+{
+  "board": "k3",
+  "generated_at": "2026-10-11T00:27:58.995075+00:00",
+  "sources": {
+    "u-boot": {
+      "commit": "a5da252ee3253a98f49ff5ef43962540c09816df",
+      "clean": true
+    },
+    "opensbi": {
+      "commit": "c04c65ce33aab6d23dee8e15fec442d0c34b8243",
+      "clean": true
+    },
+    "build-bootloaders": {
+      "commit": "95831dc7e3d8327c23062daac17c8671b16a8e31",
+      "clean": true
+    }
+  },
+  "config_sha256": {
+    "u-boot/.config": "e4309a64cab91bd5524069c8ada0b5e56c82bcd998e52fb6723b5b99000a3603",
+    "build-bootloaders/config/defconfig_fragment/k3_android.config": "d3b04b8715e09a5c4b189c5a2dc06364d95a05931090e181bc8b323cdf600d77"
+  },
+  "last_staged_mode": "release",
+  "files": [
+    {
+      "path": "env-debug.bin",
+      "size": 126976,
+      "sha256": "d5a3613c8eeffcf08fdeff7b0aba53baf6077ea2f343b2417fd912a83da0f07f"
+    },
+    {
+      "path": "env-release.bin",
+      "size": 126976,
+      "sha256": "d5a3613c8eeffcf08fdeff7b0aba53baf6077ea2f343b2417fd912a83da0f07f"
+    },
+    {
+      "path": "factory/FSBL.bin",
+      "size": 470976,
+      "sha256": "e3aff7f8d76d725e0bdc14767d9d78ca0dbd0bcdd4a0a3c63ed7fc1d9e12d661"
+    },
+    {
+      "path": "factory/bootinfo_block.bin",
+      "size": 80,
+      "sha256": "8cde21b4e18f0b72f2c98b5ae686dfe8ef75d8dc641393e97b52cf318b294e4b"
+    },
+    {
+      "path": "factory/bootinfo_spinand.bin",
+      "size": 80,
+      "sha256": "878d2fa21e48608c7391ae17b9523f098c502f3e6df6b1fa17df684a2592d7b9"
+    },
+    {
+      "path": "factory/bootinfo_spinor.bin",
+      "size": 80,
+      "sha256": "a4be70145c80f73569c6231439d8281c9f74de043ad2ca7e5fe98fa543b3a1a1"
+    },
+    {
+      "path": "factory/ec.bin",
+      "size": 242688,
+      "sha256": "b07bec0b9a3d1d317f20777d11390e7fbb84d24088555303118d25c1d75e8a3d"
+    },
+    {
+      "path": "fw_dynamic-debug.bin",
+      "size": 540176,
+      "sha256": "e6f19b3594f73b27bebd38497a446605c7d51ac567f2401fb2e532212c0a4fc2"
+    },
+    {
+      "path": "fw_dynamic-release.bin",
+      "size": 278008,
+      "sha256": "8d805dd1a3a70c28f456cbf8bd717feabb97c2b8c2d4b7e09d7899b96abb595a"
+    },
+    {
+      "path": "fw_dynamic.itb",
+      "size": 279525,
+      "sha256": "6c9cd7cb4caa28fa0df83f73789ddec563b965250756e9c2622d01db2b8af3b5"
+    },
+    {
+      "path": "partition_android.json",
+      "size": 4077,
+      "sha256": "370c8be9e7cfcfbb424a54943833e9697260acd0384de9e8ff9300de52775128"
+    },
+    {
+      "path": "partition_nor.json",
+      "size": 1251,
+      "sha256": "6411b78ab4723f3ae0f72e0f1c98230cb8da0fde9777c1eadc67d2eb604506a8"
+    },
+    {
+      "path": "u-boot-debug.dtb",
+      "size": 33916,
+      "sha256": "c475410156a8cdabc7433bc0451eef43ac9889805cfe95a589fadb251a634b24"
+    },
+    {
+      "path": "u-boot-debug.itb",
+      "size": 2522541,
+      "sha256": "be7f9b9d73893c6342af077f97e75c07e8505400fcde99d95ccda5a43f4f7af8"
+    },
+    {
+      "path": "u-boot-release.dtb",
+      "size": 33916,
+      "sha256": "c475410156a8cdabc7433bc0451eef43ac9889805cfe95a589fadb251a634b24"
+    },
+    {
+      "path": "u-boot-release.itb",
+      "size": 2260373,
+      "sha256": "7a092c962798ac7e03b5ff1c644b6f767563a96a2a56712fb373a2b6929bec79"
+    },
+    {
+      "path": "u-boot-spl-debug.bin",
+      "size": 466620,
+      "sha256": "9086c9e3521eabfc1784042f834ba1b37501f9ced8b3c9a3d5ea6171d3cc5989"
+    },
+    {
+      "path": "u-boot-spl-release.bin",
+      "size": 466620,
+      "sha256": "6b71f8d1b60c30a46cc467a0448b5bcec161923d60338b893048915e4dc3a379"
+    }
+  ],
+  "hardware_validation": "not run",
+  "log": "/tmp/rise-k3-final-buffers-release-build.log"
+}

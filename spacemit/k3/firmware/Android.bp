@@ -1,0 +1,30 @@
+// Copyright (C) 2026 The Android Open Source Project
+// SPDX-License-Identifier: Apache-2.0
+
+prebuilt_firmware {
+    name: "rtw8852b_fw.bin",
+    vendor: true,
+    src: "rtw89/rtw8852b_fw.bin",
+    sub_dir: "rtw89",
+}
+
+prebuilt_firmware {
+    name: "rtw8852b_fw-1.bin",
+    vendor: true,
+    src: "rtw89/rtw8852b_fw-1.bin",
+    sub_dir: "rtw89",
+}
+
+prebuilt_firmware {
+    name: "rtl8852bu_fw.bin",
+    vendor: true,
+    src: "rtl_bt/rtl8852bu_fw.bin",
+    sub_dir: "rtl_bt",
+}
+
+prebuilt_firmware {
+    name: "rtl8852bu_config.bin",
+    vendor: true,
+    src: "rtl_bt/rtl8852bu_config.bin",
+    sub_dir: "rtl_bt",
+}

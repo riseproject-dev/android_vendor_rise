@@ -1,7 +1,7 @@
 {
     "version": "1.0",
     "format": "gpt",
-    "description": "Android partition layout for Spacemit K1 with A/B slots",
+    "description": "Android partition layout with A/B slots",
     "partitions": [
         {
             "name": "bootinfo",

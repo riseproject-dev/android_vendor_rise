@@ -1,0 +1,27 @@
+//
+// Copyright (C) 2026 The Android Open Source Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+// Bluetooth firmware for the Realtek RTL8822CS (O-Net / Fn-Link 6222B-SRC
+// combo module). WiFi and BT are the same chip: WiFi hangs off SDIO and is
+// served by rtw88, whose firmware (rtw88/rtw8822c_fw.bin) is bus-agnostic and
+// already packaged in external/linux-firmware/rtw88-rtw8822c.
+//
+// The BT side is on UART5 (H5/3-wire) and is served by hci_uart + btrtl.
+// Upstream linux-firmware carries the SDIO-part blobs under rtl_bt/, but the
+// AOSP import in external/linux-firmware only has the USB variant
+// (rtl8822cu_*), so the SDIO pair is vendored here instead.
+
+prebuilt_firmware {
+    name: "rtl8822cs_bt_firmware",
+    srcs: [
+        "rtl_bt/rtl8822cs_fw.bin",
+        "rtl_bt/rtl8822cs_config.bin",
+    ],
+    dsts: [
+        "rtl_bt/rtl8822cs_fw.bin",
+        "rtl_bt/rtl8822cs_config.bin",
+    ],
+    vendor: true,
+}
