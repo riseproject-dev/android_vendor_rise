@@ -1,17 +1,17 @@
 {
   "board": "k3",
-  "generated_at": "2026-10-11T01:51:38.282842+00:00",
+  "generated_at": "2026-10-11T22:18:44.622053+00:00",
   "sources": {
     "u-boot": {
       "commit": "a5da252ee3253a98f49ff5ef43962540c09816df",
       "clean": true
     },
     "opensbi": {
-      "commit": "c04c65ce33aab6d23dee8e15fec442d0c34b8243",
+      "commit": "8d439f3ee426070079efc1296207748a284cc2f3",
       "clean": true
     },
     "build-bootloaders": {
-      "commit": "9642f1824b472bf56189d2a107004dcca5b1018b",
+      "commit": "cee760a72cc7ef592a024762bae6f2aa384ae55d",
       "clean": true
     }
   },
@@ -34,7 +34,7 @@
     {
       "path": "factory/FSBL.bin",
       "size": 470976,
-      "sha256": "5dee06d5616af4eb9fd9a2e0edb7c287aeed4bbf1275771782ebfffd9e4945bb"
+      "sha256": "c04cb5b84bc168cf148715b82fb75b0af509afca479d3bad69f784819c3996b7"
     },
     {
       "path": "factory/bootinfo_block.bin",
@@ -69,7 +69,7 @@
     {
       "path": "fw_dynamic.itb",
       "size": 279525,
-      "sha256": "9c6b04f7c7e10133d685dad5a56354e69d681499a3ea2ef4cf02d7a76799f06f"
+      "sha256": "b0bbb9db4482dde5c2322a2e2edaf15797780b667b3916e48409a0c081f5b838"
     },
     {
       "path": "partition_nor.json",
@@ -94,7 +94,7 @@
     {
       "path": "u-boot-release.itb",
       "size": 2260373,
-      "sha256": "6b3026d2a32453fa62de3edd7b3f2090b48900317ba76c4b14b9da38cd0fd74c"
+      "sha256": "867169f294d7700403f164462c055748c4e714f889d8dbb300c7be442316897e"
     },
     {
       "path": "u-boot-spl-debug.bin",
@@ -104,9 +104,9 @@
     {
       "path": "u-boot-spl-release.bin",
       "size": 466620,
-      "sha256": "115a60b9a694f0cd05bb98cb5595cfd6bcb02dc544e9a4b0d7381c79b7538c91"
+      "sha256": "1a1729ee98beb4158ed75d153c51e62ef92597f13c38cf573c960c84a08ab91c"
     }
   ],
   "hardware_validation": "not run",
-  "log": "/srv/rise/ready_to_push/bootloaders_k3/build-logs/spacemit-k3-release.mVliQT.log"
+  "log": "/srv/rise/ready_to_push/sources/k3-published-bootloader-rebuild-20261011T221356.368542Z/build.log"
 }
