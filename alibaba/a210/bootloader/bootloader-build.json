@@ -1,23 +1,29 @@
 {
   "board": "a210",
-  "generated_at": "2026-10-11T01:50:36.398402+00:00",
+  "generated_at": "2026-10-12T09:35:32.024212+00:00",
   "sources": {
     "u-boot": {
       "commit": "bec6f8583ff234ca4bde20159cfeec659b1bcab8",
-      "clean": true
+      "clean": true,
+      "repository": "git@github.com:riseproject-dev/u-boot.git",
+      "branch": "v2024.10-a210"
     },
     "opensbi": {
       "commit": "318574b27cfcf108b2cdaf19903bf15d1ac0473b",
-      "clean": true
+      "clean": true,
+      "repository": "git@github.com:riseproject-dev/opensbi.git",
+      "branch": "v1.5-a210"
     },
     "build-bootloaders": {
-      "commit": "3187495ad9d53965cb71507c6d559367827452e0",
-      "clean": true
+      "commit": "c59ddf8cd33274e9c65dfea59e52b610a7714b53",
+      "clean": true,
+      "repository": "git@github.com:riseproject-dev/android_bootloader_build.git",
+      "branch": "alibaba-android-17"
     }
   },
   "config_sha256": {
-    "u-boot/.config": "1c898bd937c1f679ec22e0ab38eccaff6c79a36e2fb08f71c62c0b3fcf534504",
-    "build-bootloaders/config/defconfig_fragment/a210_android.config": "6c5f31fb90730c2ab0c25f4cf77879445415504eb9aae591ce8603425e64cb30"
+    "u-boot/.config": "c7018f8faeb87ad3d379d55a4d588efc809c9391c1e63fe9020187c7b6a3f865",
+    "build-bootloaders/config/defconfig_fragment/a210_android.config": "b19d2546a14976552f8682b9fe56609ec857fbdea7d68f98b2c1ce045347fcbf"
   },
   "last_staged_mode": "release",
   "files": [
@@ -34,17 +40,17 @@
     {
       "path": "btz-with-spl-rvbl.bin",
       "size": 806464,
-      "sha256": "a0129181a7b9a07f6bfa78a35e44277b7f1b3f467c7405235df1e6aad4677e9a"
+      "sha256": "37d24f3b6e11f544cc645b92ffdc725fc2bbe4c6cc05f0224073afad3f38e080"
     },
     {
       "path": "btz-with-uboot-rvbl.bin",
-      "size": 1367606,
-      "sha256": "7a7147785ba6c82bba357842ddfc7a6b45c176e658df532b4f7d72e8879ab6e1"
+      "size": 1367710,
+      "sha256": "e5dd5610ff3eb70f98d148f82bafe6cab938377ebac62edfe705e290e4888d99"
     },
     {
       "path": "emmc-gpt_primary.img",
       "size": 32768,
-      "sha256": "69042969f93dd50415bdec54d32d43cf03cf0d59d757ee32a9b8423f19351f62"
+      "sha256": "cb9ec24ca4300c399a19e8ffa4257686173f9b7a392395fbeeacb56013922f97"
     },
     {
       "path": "emmc-uboot_env.img",
@@ -53,8 +59,8 @@
     },
     {
       "path": "emmc_boot-loader.img",
-      "size": 1389322,
-      "sha256": "d679be261075eaadb80ec556693c06c3a6e0051e626277764ca91503e2fe0879"
+      "size": 1367710,
+      "sha256": "e5dd5610ff3eb70f98d148f82bafe6cab938377ebac62edfe705e290e4888d99"
     },
     {
       "path": "fw_dynamic.bin",
@@ -64,39 +70,42 @@
     {
       "path": "fw_dynamic.bin.gz",
       "size": 97629,
-      "sha256": "11efae236330e70909c41697f643644f0679729af6f5a33b081bef5eaf3f88d4"
+      "sha256": "9585439d197fc056341948292e1e49f78bf03a03d1801cb692acb7371b4b5901"
     },
     {
       "path": "riscv-boot.hash",
       "size": 233,
-      "sha256": "a44b942bde575ad4f3df43cfc964a56b8ccc911a68e87172c92655d9b65c655d"
+      "sha256": "d75f7c2b3b820f6d551c0e7585ec9aa7cf0c4ba077eba79e10b74e3688fe2e5f"
     },
     {
       "path": "riscv-boot.itb",
-      "size": 515638,
-      "sha256": "cbccfb32147c497329b025636f7f24b3e40412d8e287da1b7c1aa97592278e72"
+      "size": 515742,
+      "sha256": "f4f52db579e0bb43ff94d16217a194f2e48f8571cefa8c81b49eb696e5534b34"
     },
     {
       "path": "spl-with-fit-rvbl.bin",
-      "size": 1016138,
-      "sha256": "e2f3bb2931025b6d6befc695e2f2c210bc5e592cc90113ca6eac4ff021c92b92"
+      "size": 994526,
+      "sha256": "2a46249917c91ea1fd8e8d8a3a1168fbb2b3986b311da6be27092da83d557d95"
     },
     {
       "path": "u-boot-spl-rvbl.bin",
       "size": 478784,
-      "sha256": "9352c636a9c8d0aef45958bef5fd7eaab23fbb22c8ccff4ec44c4bf15273e74c"
+      "sha256": "64f3295dd1950fa2fdbc976bdbfbdfde15a6b8eb7ada3cb3f8b222ec34a07bc5"
     },
     {
       "path": "u-boot.bin",
-      "size": 766808,
-      "sha256": "b0e89f79ef2d879a6649e183e3fc56de03ecd20ca6819702a1af52caf2178f1e"
+      "size": 766936,
+      "sha256": "e3f48e6733a1c7a95b00a2c6fce78fa4f12d6b59cd2813d16d428d660c26050a"
     },
     {
       "path": "u-boot.bin.gz",
-      "size": 392459,
-      "sha256": "4b7a693ddd747ba1d282b83e46112d30d0a4652ff552eb5509239cc660604955"
+      "size": 392564,
+      "sha256": "d3c76a423475103cdb0d47f798dbf01faf929b6fc99ea0d1aec2e93caf548240"
     }
   ],
   "hardware_validation": "not run",
-  "log": "/srv/rise/ready_to_push/bootloaders_alibaba/build-logs/alibaba-a210-release.MpvSTX.log"
+  "log": "/srv/rise/ready_to_push/sources/navbar-a210-bootfix-20261012T091034.514579Z/a210-bootloader-build-v3.log",
+  "uboot_avb_verification_enabled": false,
+  "native_build_result": "/srv/rise/ready_to_push/sources/navbar-a210-bootfix-20261012T091034.514579Z/a210-bootloader-build-v3-result.json",
+  "bootzero_first_stage": "Unchanged vendor binary retained from the RISE vendor repository; SHA-256 recorded in files"
 }
