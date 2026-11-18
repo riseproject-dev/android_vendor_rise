@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="rise" fetch="https://github.com/riseproject-dev/"/>
+  
+  <default remote="rise" sync-j="4"/>
+  
+  <project name="android_bootloader_build" path="build-bootloaders" revision="2809594f74545b4da338fec91b43056932d82020" upstream="alibaba-android-17" dest-branch="alibaba-android-17"/>
+  <project name="opensbi" revision="5e59d9bd7977fd6d51d5155171e34edf0d8afb20" upstream="v1.5-a210" dest-branch="v1.5-a210"/>
+  <project name="u-boot" revision="5922b114d46346b8969342ceda02a01f583d835b" upstream="v2024.10-a210" dest-branch="v2024.10-a210"/>
+</manifest>
