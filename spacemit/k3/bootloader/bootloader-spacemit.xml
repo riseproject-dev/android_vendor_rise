@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="rise" fetch="https://github.com/riseproject-dev/"/>
+  
+  <default remote="rise" sync-j="4"/>
+  
+  <project name="android_bootloader_build" path="build-bootloaders" revision="592db8cbfca529f88a9b00b49f2b6bbab2b77ced" upstream="spacemit-android-17" dest-branch="spacemit-android-17"/>
+  <project name="opensbi" revision="99b29e65b3e80b2e215cf9d84262a2b5dee06a1c" upstream="v1.8-k3" dest-branch="v1.8-k3"/>
+  <project name="u-boot" revision="f49025f0d64d889e4087a707681cdabf253156f2" upstream="v2026.07-k3" dest-branch="v2026.07-k3"/>
+</manifest>
